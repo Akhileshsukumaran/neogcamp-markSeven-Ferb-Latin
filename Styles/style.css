@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+
+/* header section */
+.nav-header{
+    text-align: center;
+    background-color: #3DB2FF;
+    margin-top: 0;
+    height: 20vh;
+    display: block;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+}
+
+.div-header{
+    margin-top: 0;
+}
+
+.header-h1{
+    margin-top: 0;
+    padding: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    color: #FFEDDA;
+}
+
+/* body section */
+
+body{
+    margin: 0;
+}
+
+textarea{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+#btn-click{
+    background-color: #3DB2FF;
+    border: none;
+    font-size: x-large;
+    padding: 1rem 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFEDDA;
+
+}
+
+.container-centre{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+#txt-input{
+    border: solid;
+    display: block;
+    height: 13vh;
+    width: 60%;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.output{
+    height: 13vh;
+    border: solid;
+    display: block;
+    width: 60%;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+
+/* footer content */
+
+.footer-header{
+    font-size: x-large;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer{
+    background-color:  #3DB2FF;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    color: #FFEDDA;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.list-item-inline{
+    display: inline-block;
+    padding: 0.5rem;
+    color: #FFEDDA;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #FFEDDA;
+}
+
