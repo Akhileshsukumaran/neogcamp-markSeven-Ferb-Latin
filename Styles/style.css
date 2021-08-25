@@ -11,7 +11,7 @@
     text-align: center;
     background-color: var(--primary-color);
     margin-top: 0;
-    height: 15vh;
+    height: 12vh;
     display: block;
     border-bottom-left-radius: 1rem;
     position: relative;
@@ -24,7 +24,7 @@
 .header-h1{
     margin-top: 0;
     font-family: var(--font);
-    padding: 3rem;
+    padding: 2rem;
     font-size: x-large;
     color: var(--off-white)
 }
@@ -44,7 +44,7 @@ textarea{
     background-color: var(--primary-color);
     border: none;
     font-size: x-large;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     font-family: var(--font);
     color: var(--off-white);
 
@@ -63,19 +63,19 @@ textarea{
 #txt-input{
     border: solid;
     display: block;
-    height: 13vh;
+    height: 10vh;
     width: 60%;
     padding: 1rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
 
 .output{
-    height: 13vh;
+    height: 10vh;
     border: solid;
     display: block;
     width: 60%;
     padding: 1rem;
-    margin: 0.5rem auto;
+    margin: 2rem auto;
     font-family: var(--font);
     font-size: large;
 }
@@ -93,10 +93,10 @@ textarea{
     text-align: center;
     border-top-right-radius: 1rem;
     bottom: 0;
-    position: fixed;
-    right: 0;
     left: 0;
+    position: fixed;
     color: var(--off-white);
+    width: 100%;
 }
 
 .footer ul{
